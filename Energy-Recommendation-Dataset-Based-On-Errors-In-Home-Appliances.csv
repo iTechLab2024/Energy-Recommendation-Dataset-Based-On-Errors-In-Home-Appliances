@@ -1,0 +1,100 @@
+Recommendations,input_real,frequency
+Avoid leaving the door open for extended periods.,"Device: fridge, Error:Door open",High
+Don't frequently open and close the door in short intervals.,"Device: fridge,Error:Door open",High
+Ensure the door seals are clean and airtight.,"Device: fridge, Error: major",High
+Do not overload the fridge or block air vents inside.,"Device: fridge,Error: major,",High
+Avoid placing hot or warm food directly into the fridge.,"Device: fridge,Error: major,  More spikes",High
+"Avoid placing the fridge near heat sources (e.g., oven, direct sunlight).","Device: fridge,Error: None",Medium
+Don't change the temperature settings frequently.,"Device: fridge,Error: Different duration",Medium
+Defrost regularly if your fridge isn't frost-free.,"Device: fridge, Error: More spikes more duration",Medium
+Don't ignore long or unusually frequent compressor run times.,"Device: fridge, Error: More spikes",Low
+Avoid dust buildup on condenser coils  clean them regularly.,"Device: fridge, Error: minor, more duration",High
+"Don't leave the door slightly ajar,  always ensure it closes fully.","Device: fridge, Error:Door open",High
+Avoid using old or inefficient fridge models in warm environments.,"Device: fridge, Error: More spikes more duration",Medium
+"Avoid setting the temperature lower than necessary (3 to 5C fridge, -18C freezer).","Device: fridge, Error: minor",High
+Group food items logically to reduce door-open time during searches.,"Device: fridge, Error: More spikes more duration",Medium
+Label or date food containers to prevent prolonged searching inside.,"Device: fridge, Error: More spikes more duration",Medium
+Allow leftovers to cool to room temperature before refrigerating.,"Device: fridge, Error: More spikes",High
+Leave space between items for proper air circulation.,"Device: fridge, Error: More spikes",High
+Ensure the fridge is level to help the door close properly and the compressor function well.,"Device: fridge, Error:Door open",Low
+Listen for unusual noise patterns ' they may indicate energy-wasting malfunctions.,"Device: fridge, Error: major",low
+Use storage bins to optimize access and reduce door open time.,"Device: fridge, Error:Door open",High
+Avoid opening the freezer and fridge compartments simultaneously.,"Device: fridge, Error:Door open",High
+Do not block the fridge's external ventilation grilles.,"Device: fridge, Error: major, more duration",High
+Clean the drip tray and drain hole to prevent water buildup and inefficiencies.,"Device: fridge, Error: minor",Medium
+Upgrade to Energy Star-rated or inverter compressor models for optimized long-term savings.,"Device: fridge, Error: Increased nominal",High
+Avoid using high-temperature cycles unnecessarily heating water is the biggest energy load.,"Device: washing machine, Error: more duration",High
+Do not overload the machine causes inefficient spinning and longer cycles.,"Device: washing machine, Error: minor, more duration",High
+Turn off the machine after use some models draw standby power even when idle.,"Device washing machine, Error: High idle consumption",High
+Check for unusually long cycles could indicate filter clogs or unbalanced loads.,"Device: washing machine, Error: major, more duration",High
+Clean the detergent drawer and filter regularly dirty components reduce cycle efficiency.,"Device: washing machine, Error: minor, more duration",High
+Level the machine properly prevents imbalance-related energy spikes during spin cycles.,"Device: washing machine, Error: minor, more duration",Low
+Periodically descale in hard water areas mineral buildup reduces thermal and mechanical efficiency.,"Device: washing machine, Error: major, more duration",High
+Choose inverter motor or A+++ rated models for best energy optimization.,"Device:  washing machine, Error: Increased nominal",High
+Monitor for frequent drainage issues  could signal pump failure or blockage.,"Device: washing machine, Error: drainage fault, major",Low
+Check for excessive vibration during spin cycles  may indicate worn shock absorbers or drum issues.,"Device: washing machine, Error: mechanical imbalance, major",Medium
+Avoid partial loads  inefficient for energy and water use.,"Device: washing machine, Error: underloading, minor",Medium
+Do not use excess detergent  leads to over-sudsing and poor rinsing.,"Device: washing machine, Error: over-sudsing, minor",Medium
+Clean the rubber door seal regularly  prevents mold and ensures good closure.,"Device: washing machine, Error: door seal hygiene, minor",High
+Use eco or quick wash programs when lightly soiled  saves water and power.,"Device: washing machine, Error: program inefficiency, general usage",High
+Wash clothes at 30°C when possible  saves significant energy vs higher temperatures.,"Device: washing machine, Error: high temperature usage, general usage",High
+Delay-start features help run loads during off-peak energy hours.,"Device: washing machine, Error: peak usage, general usage",High
+Avoid using high-temperature or heavy-duty cycles unnecessarily these draw the most energy.,"Device: dishwasher, Error: minor, more duration",High
+Turn off the machine after use some models consume standby power even when not in use.,"Device: dishwasher, Error: High idle consumption",High
+Check water temperature setting 45 or 50C (113 to 122F) is typically sufficient for normal cycles.,"Device: dishwasher, Error: minor",High
+"Avoid frequent use of ""intensive"" or ""sanitize"" modes unless truly necessary (e.g., baby bottles).","Device: dishwasher, Error: minor",Medium
+"Level the machine an uneven dishwasher may cause poor draining, re-rinsing, and longer cycles.","Device: dishwasher, Error:Minor, more duration",Low
+Clean the filter and spray arms regularly clogged components reduce cleaning and energy efficiency.,"Device: dishwasher, Error:Minor",High
+Descale periodically in hard water regions scale buildup reduces heater and pump performance.,"Device: dishwasher, Error:Minor",High
+Check detergent compatibility with eco-cycles some powders and tablets aren't optimized.,"Device: dishwasher, Error:Minor",High
+Do not overload or block spray arms leads to poor cleaning and potential re-runs.,"Device: dishwasher, Error:Minor",Medium
+"Choose dishwashers with inverter technology and energy labels (e.g., A+++, Energy Star).","Device: dishwasher,Error: general usage",Medium
+Run the dishwasher only when full  maximizes energy and water efficiency.,"Device: dishwasher,Error: general usage",Medium
+Schedule washes during off-peak hours  saves money on time-of-use energy plans.,"Device: dishwasher,Error: general usage",Medium
+"Heating element fault  if water isn’t hot enough, cleaning efficiency drops.","Device: dishwasher, Error: heating element fault, minor",Medium
+Water inlet valve issue  delays in filling increase cycle time and energy waste.,"Device: dishwasher, Error: water inlet valve, minor",Medium
+Faulty thermostat affects water temperature and cycle effectiveness.,"Device: dishwasher, Error: thermostat issue, minor",Medium
+Spray arm fault  poor water distribution leads to longer or repeated cycles.,"Device: dishwasher, Error: spray arm fault, minor",Medium
+Heating phase failure complete cycle interruption due to element or control board faults.,"Device: dishwasher, Error: heating phase failure, minor",Low
+Avoid underloading drying few items wastes the same energy as a full load.,"Device: dryer, Error: minor, operational inefficiency",Medium
+Use lower heat settings for lightly soiled or smaller loads reduces peak power draw.,"Device: dryer, Error: excessive power usage, general usage",Low
+Turn off the machine after use some dryers draw standby power even when idle.,"Device: dryer, Error: standby energy use, general usage",Medium
+Avoid opening the door mid-cycle restarts the cycle or confuses moisture sensors.,"Device: dryer, Error: disrupted cycle, minor",Medium
+Dry similar fabric types together mixing causes overdrying of light items.,"Device: dryer, Error: fabric type mismatch, general usage",Low
+Schedule drying during off-peak hours (if using time-of-use electricity).,"Device: dryer, Error: peak time usage, general usage",Low
+"Don't use high-heat or sanitize settings unnecessarily large energy spikes, rarely needed.","Device: dryer, Error: unnecessary high-heat, general usage",Medium
+Regularly clean the moisture sensor strips buildup leads to over-drying cycles.,"Device: dryer, Error: dirty sensors, general usage",High
+Ensure the exhaust duct (for vented models) is clean and not kinked blockages equals longer cycles.,"Device: dryer, Error: vent blockage, major",High
+For heat pump dryers keep the air intake and condenser clean efficiency depends on airflow.,"Device: dryer, Error: airflow restriction, general usage",Medium
+Avoid frequent small loads batching clothes is far more energy efficient.,"Device: dryer, Error: small load inefficiency, general usage",Medium
+"If long cycles are frequent, check for sensor issues, vent blockages, or humidity overloading.","Device: dryer, Error: prolonged drying, major",Low
+"Use drying racks or line-dry when possible, especially for small or delicate loads.","Device: dryer, Error: alternative drying option,general usage",Low
+Heating failure dryer not heating may indicate damage to the heating element or control board.,"Device: dryer, Error: heating failure, major",low
+Thermal fuse trip can cause the dryer to shut down suddenly.,"Device: dryer, Error: thermal fuse trip, major",low
+Drum imbalance excessive noise or vibration may suggest drum alignment issues.,"Device: dryer, Error: drum imbalance, minor",Medium
+Door latch issue can cause premature cycle termination.,"Device: dryer, Error: door latch issue, minor",Medium
+Sensor obstruction buildup can prevent accurate moisture detection.,"Device: dryer, Error: sensor obstruction,minor",High
+Mode inefficiency auto-dry settings are more energy-efficient than timed drying.,"Device: dryer, Error: mode inefficiency, general usage",Medium
+Installation environment ensure the unit is in a ventilated space for optimal performance.,"Device: dryer, Error: installation environment, general usage",High
+Program mismatch match drying cycles to fabric type for efficiency.,"Device: dryer, Error: program mismatch, general usage",Medium
+"Inspect oven door gasket for wear or gaps, leaky seals cause heat loss and higher energy use","Device: oven, Error: door seal fault, major",High
+"Check for visible damage inside the oven cavity, holes or cracks can impair insulation and increase consumption.","Device: oven, Error: internal damage, major",High
+Avoid using aluminum foil on the bottom of the oven it disrupts airflow and may trigger overconsumption.,"Device: oven, Error: improper usage, general usage",Medium
+Use oven light instead of opening door to check food prevents heat loss and frequent reheating.,"Device: oven, Error: heat loss, minor",Medium
+Run a self-cleaning cycle only when truly necessary it draws significant power and can wear components.,"Device: oven, Error: excessive self-cleaning, general usage",Low
+Ensure oven racks are placed properly  misalignment can affect heat distribution and cooking efficiency.,"Device: oven, Error: misaligned racks, minor",Low
+Clean oven regularly to prevent energy loss from food debris and grease.,"Device: oven, Error: dirty appliance, minor",Medium
+Turn off the oven a few minutes before the timer ends to utilize residual heat.,"Device: oven, Error: energy overuse, general usage",Low
+Preheat the oven only when necessary to reduce idle energy use.,"Device: oven, Error: preheating behavior",Medium
+Avoid opening the oven door frequently while cooking to maintain temperature efficiency.,"Device: oven, Error: heat loss, minor",High
+Clean oven regularly to prevent energy loss from food debris and grease.,"Device: oven, Error: dirty appliance, minor",High
+Check the thermostat calibration  incorrect settings can cause overheating or insufficient heating.,"Device: water heater, Error: faulty thermostat, major",Medium
+Flush the tank every 6–12 months to remove sediment buildup  this maintains heating efficiency and prevents strain.,"Device: water heater, Error: sediment buildup",Medium
+Insulate the hot water pipes and the tank (if older model) to reduce standby heat loss.,"Device: water heater, Error: heat loss, minor",Low
+"Install a timer to turn off the water heater during long periods of non-use (e.g., at night).","Device: water heater, Error: idle energy consumption, general usage",Medium
+Avoid setting temperature above 120°F (49°C)  higher temperatures waste energy and increase scald risk.,"Device: water heater, Error: high temperature setting, general usage",High
+"If water takes longer than usual to heat, check for failing heating elements.","Device: water heater, Error: worn heating element, major",High
+Use low-flow showerheads and faucet aerators to reduce hot water demand and energy use.,"Device: water heater, Error: inefficient hot water use, general usage",Medium
+Clean or replace the lint filter regularly clogged filters reduce system efficiency and increase drying times.,"Device: water heater, Error: clogged lint filter, minor",Medium
+Inspect water heater seals for wear or deterioration worn seals can lead to heat loss and inefficiency.,"Device: water heater, Error: worn seals, minor",Medium
+"If heating is slow or inconsistent, check for inefficient gas valve or heating element performance.","Device: water heater, Error: inefficient gas valve or heating element, major",Low
