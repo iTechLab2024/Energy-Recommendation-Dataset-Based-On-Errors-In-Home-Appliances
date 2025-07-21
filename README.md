@@ -78,7 +78,7 @@ fridge_data = df[df['input_real'].str.contains('fridge', case=False)]
 door_open_issues = df[df['input_real'].str.contains('Door open', case=False)]
 ```
 
-### Repository Structure
+## Repository Structure
 
     README.md: Project documentation.
 
@@ -86,20 +86,20 @@ door_open_issues = df[df['input_real'].str.contains('Door open', case=False)]
 
     notebooks/: (Optional) Sample notebooks for data analysis or model development.
 
-### Contributing
+## Contributing
 
 Contributions and suggestions are welcome! Feel free to open an issue or submit a pull request if you’d like to enhance this dataset or provide a use case.
 
-### License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-### Contact
+## Contact
 
 For questions, feedback, or collaboration inquiries, please contact:
 itechlab2024@gmail.com
 
-### Acknowledgments
+## Acknowledgments
 
 Thanks to the open-source and research community. Helpful tools and platforms:
 
