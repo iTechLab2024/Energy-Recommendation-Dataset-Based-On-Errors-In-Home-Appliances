@@ -1,5 +1,5 @@
 ###### Energy-Recommendation-Dataset-Based-On-Error-For-Home-Appliances  
-<a href="https://sandbox.zenodo.org/doi/10.5072/zenodo.XXXXX"><img src="https://sandbox.zenodo.org/badge/807105539.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.16279369"><img src="https://zenodo.org/badge/1023751746.svg" alt="DOI"></a>
 
 A structured dataset of contextual energy-saving recommendations based on smart appliance error scenarios. Useful for training NLP models, smart home diagnostics, and energy-aware IoT systems.
 
