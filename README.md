@@ -61,19 +61,24 @@ import pandas as pd
 # Load the dataset
 df = pd.read_csv('Final_Recommendations.csv', encoding='ISO-8859-1')
 print(df.head())
+```
 
-Preprocessing
+### Preprocessing
+```python
 # Clean and normalize text
 df.columns = df.columns.str.strip()
 df['input_real'] = df['input_real'].str.strip()
 df['frequency'] = df['frequency'].str.strip()
+```
 
-Filtering Examples
+### Filtering Examples
+```python
 # Filter by device type or specific error
 fridge_data = df[df['input_real'].str.contains('fridge', case=False)]
 door_open_issues = df[df['input_real'].str.contains('Door open', case=False)]
+```
 
-Repository Structure
+### Repository Structure
 
     README.md: Project documentation.
 
@@ -81,31 +86,26 @@ Repository Structure
 
     notebooks/: (Optional) Sample notebooks for data analysis or model development.
 
-Contributing
+### Contributing
 
 Contributions and suggestions are welcome! Feel free to open an issue or submit a pull request if you’d like to enhance this dataset or provide a use case.
-License
+
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-Contact
+
+### Contact
 
 For questions, feedback, or collaboration inquiries, please contact:
 itechlab2024@gmail.com
-Acknowledgments
+
+### Acknowledgments
 
 Thanks to the open-source and research community. Helpful tools and platforms:
 
-    pandas
-
-    Matplotlib
-
-    Hugging Face
-
-    Scikit-learn
-
-    Smart Energy & IoT Research Labs
-
-
----
-
-Let me know if you'd like this saved to a file or adapted for Hugging Face, Zenodo, or another platform!
+ - **[pandas](https://pandas.pydata.org/)**
+- **[scikit-learn](https://scikit-learn.org/)**
+- **[Matplotlib](https://matplotlib.org/)**
+- **[Stack Overflow](https://stackoverflow.com/)**
+- **Open Source Community**
+- **Online Courses and Tutorials**
