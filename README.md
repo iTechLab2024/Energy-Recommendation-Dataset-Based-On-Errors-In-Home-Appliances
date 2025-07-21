@@ -77,7 +77,7 @@ Repository Structure
 
     README.md: Project documentation.
 
-    Final_Recommendations.csv: Main dataset file.
+    Energy-Recommendation-Dataset-Based-On-Errors-In-Home-Appliances.csv: Main dataset file.
 
     notebooks/: (Optional) Sample notebooks for data analysis or model development.
 
@@ -90,7 +90,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Contact
 
 For questions, feedback, or collaboration inquiries, please contact:
-Ioannis Tzitzios – tzitzios.ioannis@gmail.com
+itechlab2024@gmail.com
 Acknowledgments
 
 Thanks to the open-source and research community. Helpful tools and platforms:
