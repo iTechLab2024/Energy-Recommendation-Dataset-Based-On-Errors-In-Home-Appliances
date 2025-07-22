@@ -1,7 +1,7 @@
 ###### Home Appliance Energy Recommendation Dataset Based on Error Analysis 
 <a href="https://doi.org/10.5281/zenodo.16279369"><img src="https://zenodo.org/badge/1023751746.svg" alt="DOI"></a>
 
-# Energy Recommendation Dataset Based on Error for Home Appliances
+# Home Appliance Energy Recommendation Dataset Based on Error Analysis
 
 ## Overview
 This repository contains a dataset of contextual, energy-saving recommendations generated in response to specific error scenarios from common household appliances. The dataset is designed for applications in intelligent energy systems, IoT analytics, and natural language processing (NLP) for smart environments.
