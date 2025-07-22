@@ -1,4 +1,4 @@
-###### Energy-Recommendation-Dataset-Based-On-Error-For-Home-Appliances  
+###### Home Appliance Energy Recommendation Dataset Based on Error Analysis 
 <a href="https://doi.org/10.5281/zenodo.16279369"><img src="https://zenodo.org/badge/1023751746.svg" alt="DOI"></a>
 
 # Energy Recommendation Dataset Based on Error for Home Appliances
